@@ -9,6 +9,9 @@ This project requires NodeJS v6 and up
 # Install npm
 npm install
 
+# Install lodash
+npm install lodash
+
 # install dotenv
 npm install dotenv --save
 
