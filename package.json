@@ -4,7 +4,9 @@
   "description": "Hey Alexa, ask Net Worth how much money do I have right now?",
   "main": "index.js",
   "scripts": {
-    "test": "echo hello"
+    "test": "echo Hello",
+    "dev": "node index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -14,10 +16,21 @@
     "networth-alexa",
     "networth"
   ],
-  "author": "nghiattran",
+  "author": {
+    "name": "nghiattran",
+    "email": "nghiattran3@gmail.com",
+    "url": ""
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nnetworth/networth-alexa/issues"
   },
-  "homepage": "https://github.com/nnetworth/networth-alexa#readme"
+  "homepage": "https://github.com/nnetworth/networth-alexa#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "raven": "^2.2.1"
+  },
+  "bin": {
+    "snippet": "index.js"
+  }
 }
