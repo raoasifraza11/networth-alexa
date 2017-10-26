@@ -1,0 +1,23 @@
+{
+  "name": "networth-alexa",
+  "version": "1.0.0",
+  "description": "Hey Alexa, ask Net Worth how much money do I have right now?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnetworth/networth-alexa.git"
+  },
+  "keywords": [
+    "networth-alexa",
+    "networth"
+  ],
+  "author": "nghiattran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nnetworth/networth-alexa/issues"
+  },
+  "homepage": "https://github.com/nnetworth/networth-alexa#readme"
+}
